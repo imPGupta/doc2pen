@@ -41,12 +41,13 @@ body {
     color: #000000;
     text-align: center;
     background-color:rgb(255, 255, 255);
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    font-size: 26px;
     border-radius: 50%;
     display: inline-block;
-    font-size: 16px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -81,6 +82,13 @@ body {
     footer .footer-nav {
       margin-bottom: 30px;
     }
+    footer .social li a {
+      width: 42px;
+      height: 42px;
+      line-height: 42px;
+      border-radius: 50%;
+      font-size: 26px;
+    }
   }
   @media (max-width: 768px) {
     footer {
@@ -91,5 +99,12 @@ body {
   }
   footer .copyright{
     font-size: 13px;
+  }
+  footer .social li a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    font-size: 17px;
   }
   }
