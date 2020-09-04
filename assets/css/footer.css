@@ -26,6 +26,7 @@ body {
   footer {
     padding-top: 90px;
     bottom: 0;
+    font-weight: bold;
   }
   
   footer>div>p{
